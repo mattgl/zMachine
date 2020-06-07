@@ -8,6 +8,9 @@
     <Filter Include="Source">
       <UniqueIdentifier>{4f1ff1e9-0e17-4c1d-a0de-c77a8426960e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\IOstreams">
+      <UniqueIdentifier>{b48d2286-7402-424a-bf78-9034a334821e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\zMachine.h">
@@ -15,6 +18,9 @@
     </ClInclude>
     <ClInclude Include="Source\zDefinitions.h">
       <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IOstreams\teeStream.h">
+      <Filter>Source\IOstreams</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -28,9 +34,6 @@
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="Source\zMachine_objects.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\zMachine_output.cpp">
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="Source\zMachine_stack.cpp">
@@ -47,6 +50,9 @@
     </ClCompile>
     <ClCompile Include="Source\zMachine_debug.cpp">
       <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IOstreams\teeStream.cpp">
+      <Filter>Source\IOstreams</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -149,17 +149,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Source\IOstreams\teeStream.h" />
     <ClInclude Include="Source\zDefinitions.h" />
     <ClInclude Include="Source\zMachine.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Source\IOstreams\teeStream.cpp" />
     <ClCompile Include="Source\main.cpp" />
     <ClCompile Include="Source\zMachine.cpp" />
     <ClCompile Include="Source\zMachine_debug.cpp" />
     <ClCompile Include="Source\zMachine_input.cpp" />
     <ClCompile Include="Source\zMachine_instructions.cpp" />
     <ClCompile Include="Source\zMachine_objects.cpp" />
-    <ClCompile Include="Source\zMachine_output.cpp" />
     <ClCompile Include="Source\zMachine_stack.cpp" />
     <ClCompile Include="Source\zMachine_strings.cpp" />
     <ClCompile Include="Source\zMachine_variables.cpp" />
